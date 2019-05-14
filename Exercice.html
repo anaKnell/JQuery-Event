@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exemples de barre de chargement</title>
+
+<style type="text/css">
+
+* {margin:0; padding:0;}
+body {height:1500px; background:#555;}
+
+#barre-1 {position:fixed; top:0; height:40px; width:100%; background:#222; border:2px solid #222;}
+#barre-1 .progression {background:#007db7; width:0%; height:100%; transition:width 0.3s;}
+#barre-1 .pourcentage {position:absolute; top:0; font-size:1.5em; line-height:1.5em; text-align:center; width:100%; color:#fff;}
+
+</style>
+
+<script type="application/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+<script type="application/javascript">
+</script>
+
+</head>
+
+<body>
+
+  <div id="barre-1"><div class="progression"></div><div class="pourcentage"></div></div>
+
+</body>
+
+</html>
