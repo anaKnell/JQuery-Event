@@ -1,48 +1,44 @@
 # JQuery-Event
 Cours Jquery - Exercices
-Heading
-=======
+
 ---
 ## Exercice : Barre de progression qui augmente ou diminue en scrollant votre page web
+---
+
+Votre fichier HTML, le body doit comporter:
+* <div id="barre-1"><div class="progression"></div><div class="pourcentage"></div></div>
+
+
 ---
 **Petit rappel** pour vous aider:
 ---
 
+```
 
-Paragraphs are separated
-by a blank line.
+height();
 
-Two spaces at the end of a line  
-produces a line break.
+```
 
-Text attributes _italic_, 
-**bold**, `monospace`.
+```
+ 
+ scrollTop();
 
-Horizontal rule:
+```
+```
+ 
+ css();
 
----
+```
+```
+ 
+ html();
 
-Bullet list:
+```
+```
+ 
+ sélecteur: window, document
 
-  * apples
-  * oranges
-  * pears
+```
+ 
 
-Numbered list:
 
-  1. wash
-  2. rinse
-  3. repeat
-
-A [link][example].
-
-  [example]: http://example.com
-
-![Image](Icon-pictures.png "icon")
-
-> Markdown uses email-style > characters for blockquoting.
-
-Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
-'''
-Code
-'''
